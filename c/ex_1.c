@@ -1,3 +1,6 @@
+/* Define a function max() that takes two numbers as arguments and 
+ * returns the largest of them. */
+
 #include <stdio.h>
 
 int max(int, int);

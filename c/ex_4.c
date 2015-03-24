@@ -1,3 +1,6 @@
+/* Write a function that takes a character and returns True if it 
+ * is a vowel, False otherwise. */
+
 #include <stdio.h>
 #include <stdbool.h>
 
