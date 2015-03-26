@@ -7,10 +7,10 @@ int max(int, int);
 
 int main(void)
 {
-    int num1, num2;
+    int usernum_1, usernum_2;
     printf("Please enter 2 numbers: ");
-    scanf(" %d %d", &num1, &num2);
-    printf("The largest of the two is %d\n", max(num1, num2));
+    scanf(" %d %d", &usernum_1, &usernum_2);
+    printf("The largest of the two is %d\n", max(usernum_1, usernum_2));
     return 0;
 }
 
