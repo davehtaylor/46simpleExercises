@@ -2,7 +2,7 @@
 # the largest of them.
 
 
-def max(inputNum1, inputNum2):
+def maxNum(inputNum1, inputNum2):
     """Find the largest of two input numbers"""
     if inputNum1 > inputNum2:
         return inputNum1
@@ -12,8 +12,8 @@ def max(inputNum1, inputNum2):
 
 def maxOfThree(inputNum1, inputNum2, inputNum3):
     """Find the largest of three input numbers"""
-    firstMax = max(inputNum1, inputNum2)
-    return max(firstMax, inputNum3)
+    firstMax = maxNum(inputNum1, inputNum2)
+    return maxNum(firstMax, inputNum3)
 
 
 print("Please enter a number:")
