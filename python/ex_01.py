@@ -3,6 +3,7 @@
 
 
 def max(inputNum1, inputNum2):
+    """Find the largest of two input numbers"""
     if inputNum1 > inputNum2:
         return inputNum1
     else:
