@@ -16,18 +16,21 @@ int main(void)
     return 0;
 }
 
-int max_of_three(int num1, int num2, int num3)
+int max(int num1, int num2)
 {
-    int first_max;
-
     if (num1 > num2)
     {
-        first_max = num1;
+        return num1;
     }
     else
     {
-        first_max = num2;
+        return num2;
     }
+}
+
+int max_of_three(int num1, int num2, int num3)
+{
+    int first_max = max(num1, num2);
 
     if (first_max > num3)
     {
