@@ -6,9 +6,20 @@
 
 #include <stdio.h>
 
-void generate_n_chars(char, int);
+void 
+generate_n_chars(char input_char, int input_num)
+{
+    int i;
 
-int main(void)
+    for (i = 0; i < input_num; i++)
+    {
+        putchar(input_char);
+    }
+    putchar('\n');
+}
+
+int 
+main(void)
 {
     char userchar;
     int usernum;
@@ -18,15 +29,4 @@ int main(void)
 
     generate_n_chars(userchar, usernum);
     return 0;
-}
-
-void generate_n_chars(char input_char, int input_num)
-{
-    int i;
-
-    for (i = 0; i < input_num; i++)
-    {
-        putchar(input_char);
-    }
-    putchar('\n');
 }

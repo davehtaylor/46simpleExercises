@@ -10,9 +10,19 @@
 
 #include <stdio.h>
 
-void histogram(int);
+void 
+histogram(int input_num)
+{
+    int i;
+    for (i = 0; i < input_num; i++)
+    {
+        putchar('*');
+    }
+    putchar('\n');
+}
 
-int main(void)
+int 
+main(void)
 {
     int i;
     int usernum_1, usernum_2, usernum_3;
@@ -29,13 +39,3 @@ int main(void)
 
     return 0;
 }
-
-void histogram(int input_num)
-{
-    int i;
-    for (i = 0; i < input_num; i++)
-    {
-        putchar('*');
-    }
-    putchar('\n');
-} 

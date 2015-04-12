@@ -5,10 +5,22 @@
 
 #include <stdio.h>
 
-int sum(int, int, int, int);
-int multiply(int, int, int, int);
+int 
+sum(int input_1, int input_2, int input_3, int input_4)
+{
+    int total = input_1 + input_2 + input_3 + input_4;
+    return total;
+}
 
-int main(void)
+int 
+multiply(int input_1, int input_2, int input_3, int input_4)
+{
+    int total = input_1 * input_2 * input_3 * input_4;
+    return total;
+}
+
+int 
+main(void)
 {
     int user_selection;
     int usernum_1, usernum_2, usernum_3, usernum_4;
@@ -36,14 +48,4 @@ int main(void)
     return 0;
 }
 
-int sum(int input_1, int input_2, int input_3, int input_4)
-{
-    int total = input_1 + input_2 + input_3 + input_4;
-    return total;
-}
 
-int multiply(int input_1, int input_2, int input_3, int input_4)
-{
-    int total = input_1 * input_2 * input_3 * input_4;
-    return total;
-}
