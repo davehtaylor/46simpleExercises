@@ -10,11 +10,11 @@ def reverseString(inputString):
 def isPalindrome(inputString):
     """Test if input is a palindrome."""
     if userString == reverseString(userString):
-        print("It's a palindrome.")
+        return "It's a palindrome."
     else:
-        print("That's not a palindrome")
+        return "That's not a palindrome"
 
 print("Please enter a word or phrase: ")
 userString = input()
 
-isPalindrome(userString)
+print(isPalindrome(userString))
