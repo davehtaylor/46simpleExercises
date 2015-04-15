@@ -16,6 +16,7 @@ def isVowel(inputChar):
 
 print("Please enter a letter to discover if it is a vowel: ")
 userChar = input()
+
 if isVowel(userChar) == True:
     print("That's a vowel")
 else:
